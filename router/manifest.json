@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "router-labels",
+  "version": "1.1.2",
+  "description": "extension that adds custom labels to devices in your O!.kg router/modem ui for home and blacklist",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "http://192.168.0.1/*",
+    "https://192.168.0.1/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://192.168.0.1/*",
+        "https://192.168.0.1/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "options.html"
+}

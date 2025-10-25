@@ -1,6 +1,7 @@
 # o.kg-management
 
-<img width="1165" height="498" alt="image" src="https://github.com/user-attachments/assets/177ec840-1032-47e0-8fbf-4b95816db726" />
+<img width="1169" height="537" alt="image" src="https://github.com/user-attachments/assets/532de5d0-af5a-4130-a2ce-1c23281a69bc" />
+
 
 
 
